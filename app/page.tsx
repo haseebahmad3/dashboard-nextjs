@@ -181,7 +181,7 @@ export default function Home() {
                     status={ticket.status}
                     priority={ticket.priority}
                     createdAt={ticket.createdAt}
-                    lastUpdatedAt={ticket.lastUpdatedAt as unknown as string}
+                    lastUpdatedAt={ticket.lastUpdatedAt}
                     assignedTo={ticket.assignedTo as string}
                     channel={ticket.channel}
                     issueType={ticket.issueType}

@@ -86,7 +86,7 @@ description
                 <p>status: {status.trim()}</p>
                 <p>priority: {priority.trim()}</p>
                 <p>created at: {createdAt.trim()}</p>
-                <p>lastUpdatedAt: {typeof lastUpdatedAt === "string" ? lastUpdatedAt.trim() : "No data to show"}</p>
+                <p>lastUpdatedAt: {typeof lastUpdatedAt === "string" ? lastUpdatedAt : "No data to show"}</p>
                 <p>assignedTo: {assignedTo === null ? "No data to show" : assignedTo}</p>
                 <p>channel: {channel.trim()}</p>
                 <p>issueType: {issueType.trim()}</p>
