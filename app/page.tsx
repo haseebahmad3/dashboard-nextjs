@@ -23,7 +23,7 @@ const teamToIssueType: Record<string, string> = {
   "Customer Success":       "onboarding",
 };
 
-export default function Home() {
+function Home() {
   const [filters, setFilters] = React.useState<Filters>({
     status: "",
     customerTier: "",
@@ -196,3 +196,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
